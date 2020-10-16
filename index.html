@@ -10,9 +10,9 @@
   <div id="container">
     <div id="top-nav">
       <a class="nav-link" href="index.html">Home</a>
-      <a class="nav-link" href="about.html">About</a>
-      <a class="nav-link" href="portfolio.html">Portfolios</a>
-      <a class="nav-link" href="contact">Contact</a>
+      <a class="nav-link" href="#about-me">About</a>
+      <a class="nav-link" href="#portfolios">Portfolios</a>
+      <a class="nav-link" href="#contact-me">Contact</a>
     </div>
     <div class="hero-section">
       <h1>Welcome everyone!</h1>
@@ -26,8 +26,10 @@
       <p>It's me!</p>
       
     </div><!--end Hero area-->
+    <div class="clear">
 
-    <div class="about-area">
+    </div>
+    <div class="about-area" id="about-me">
       <h2>My Skills</h2>
       <br>
       <h3>Front End Techologies:</h3>
@@ -55,7 +57,8 @@
         </ul>
 
     </div>
-    <div class="about-area">
+
+    <div class="about-area" id="about-me">
       <h2>Thanks for visiting my world!</h2>
       <p>I am super excited to see you here!</p>
       <p>I am a creative and passionate Full Stack Web Developer with Python, Javascript & Java Programming! Ealier, I taught Communicative English at college level for 12 years in Bangladesh!</p>
@@ -67,37 +70,46 @@
       <h3>Look forward to working together!</h3>
 
     </div><!--About section ends-->
-
-    <div class="my-portfolios">
-      <h2>Project: One</h2>
-      <h3>Project in brief:</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio velit sequi quo nesciunt dolorum eveniet a consequuntur magnam unde tenetur esse, harum corporis quam necessitatibus? Nobis ab aut sequi aliquam omnis accusantium et, ipsam earum cupiditate consequatur qui libero corporis quo autem fugit mollitia quia vel. Autem, ipsum? Error!</p>
-      <img src="" alt="">
-    </div>
-    <div class="my-portfolios">
-      <h2>Project: Two</h2>
-      <h3>Project in brief:</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio velit sequi quo nesciunt dolorum eveniet a consequuntur magnam unde tenetur esse, harum corporis quam necessitatibus? Nobis ab aut sequi aliquam omnis accusantium et, ipsam earum cupiditate consequatur qui libero corporis quo autem fugit mollitia quia vel. Autem, ipsum? Error!</p>
-      <img src="" alt="">
-    </div>
-    <div class="my-portfolios">
-      <h2>Project: Three</h2>
-      <h3>Project in brief:</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio velit sequi quo nesciunt dolorum eveniet a consequuntur magnam unde tenetur esse, harum corporis quam necessitatibus? Nobis ab aut sequi aliquam omnis accusantium et, ipsam earum cupiditate consequatur qui libero corporis quo autem fugit mollitia quia vel. Autem, ipsum? Error!</p>
-      <img src="" alt="">
+    <div class="clear">
       
     </div>
-    <div class="my-portfolios">
-      <h2>Project: Four</h2>
-      <h3>Project in brief:</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio velit sequi quo nesciunt dolorum eveniet a consequuntur magnam unde tenetur esse, harum corporis quam necessitatibus? Nobis ab aut sequi aliquam omnis accusantium et, ipsam earum cupiditate consequatur qui libero corporis quo autem fugit mollitia quia vel. Autem, ipsum? Error!</p>
-      <img src="" alt="">
-      
-    </div> <!--Portfolios end-->
+    <section id="portfolios"> 
+      <div class="my-portfolios">
+        <h2>Project: One</h2>
+        <h3>Project in brief:</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio velit sequi quo nesciunt dolorum eveniet a consequuntur magnam unde tenetur esse, harum corporis quam necessitatibus? Nobis ab aut sequi aliquam omnis accusantium et, ipsam earum cupiditate consequatur qui libero corporis quo autem fugit mollitia quia vel. Autem, ipsum? Error!</p>
+        <img src="" alt="">
+      </div>
+      <div class="my-portfolios">
+        <h2>Project: Two</h2>
+        <h3>Project in brief:</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio velit sequi quo nesciunt dolorum eveniet a consequuntur magnam unde tenetur esse, harum corporis quam necessitatibus? Nobis ab aut sequi aliquam omnis accusantium et, ipsam earum cupiditate consequatur qui libero corporis quo autem fugit mollitia quia vel. Autem, ipsum? Error!</p>
+        <img src="" alt="">
+      </div>
+      <div class="my-portfolios">
+        <h2>Project: Three</h2>
+        <h3>Project in brief:</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio velit sequi quo nesciunt dolorum eveniet a consequuntur magnam unde tenetur esse, harum corporis quam necessitatibus? Nobis ab aut sequi aliquam omnis accusantium et, ipsam earum cupiditate consequatur qui libero corporis quo autem fugit mollitia quia vel. Autem, ipsum? Error!</p>
+        <img src="" alt="">
+        
+      </div>
+      <div class="my-portfolios">
+        <h2>Project: Four</h2>
+        <h3>Project in brief:</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio velit sequi quo nesciunt dolorum eveniet a consequuntur magnam unde tenetur esse, harum corporis quam necessitatibus? Nobis ab aut sequi aliquam omnis accusantium et, ipsam earum cupiditate consequatur qui libero corporis quo autem fugit mollitia quia vel. Autem, ipsum? Error!</p>
+        <img src="" alt="">
+        
+      </div> <!--Portfolios end-->
+  
 
-    <div id="contact-me">
+    </section>
+    
+    <div class="clear">
+      
+    </div>
+    <div class="contact" id="contact-me">
       <h3>Please feel free to contact:</h3>
-      <div class="container">
+
         <form action="/action_page.php">
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -118,12 +130,19 @@
           <input type="submit" value="Submit">
         </form>
 
-    </div> <!--Contact section ends-->
+    </div><!--Contact area ends-->
 
-    
+    <!--Footer area starts-->
     <footer id="footer-area">
+        <p>Copyright @ portfolio 2020</p>
+        <div class="my-social">
+          <a href="https://youtube.com/c/theglobaldream"><img src="https://images.newindianexpress.com/uploads/user/imagelibrary/2018/11/28/w900X450/YouTube.jpg" alt="YouTube" width="50" height="50"></a>
+          <a href="https://github.com/webmaaster"><img src="https://avatars3.githubusercontent.com/u/9919?v=3&s=280" alt="github" width="50" height="50"></a>
+          <a href="https://www.linkedin.com/in/babul-nokrek-45b835162/"><img src="" alt="github"></a>
+        </div>
 
-    </footer>
-  </div>
+    </footer><!--Footer area ends-->
+
+  </div><!--div container ends-->
 </body>
 </html>
