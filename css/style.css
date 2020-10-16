@@ -105,18 +105,18 @@ body {
   border-radius: 5px;
 
 }
-
+/*
 img {
   border-radius: 5px;
   width: 100%;
   height: 100%;
-} /* image section ends*/
+} 
 
 img:hover {
   border-radius: 10px;
   width: 100%;
   height: 110%;
-} /* image section ends*/
+} */
 #youtube-vid {
   border: crimson;
   border-radius: 10px;
@@ -124,7 +124,7 @@ img:hover {
 /* About section area starts */
 .about-area {
   width: 49%;
-  height: 575px;
+  height: 585px;
   background-color: lightgreen;
   margin: 10px 0;
   float: left;
