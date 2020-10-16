@@ -29,6 +29,7 @@ body {
 .nav-link{
   background-color: darksalmon;
   color: crimson;
+  color: blck;
   font-size: 35px;
   text-align: center;
   margin: 20px;
@@ -120,13 +121,27 @@ img:hover {
 /* About section area starts */
 .about-area {
   width: 49%;
-  height: 565px;
+  height: 575px;
   background-color: lightgreen;
   margin: 10px 0;
   float: left;
   padding: 60px;
   margin: 5px;
   border: 2px solid crimson;
+  border-radius: 10px;
+  text-decoration: none;
+
+
+}
+.about-area:hover {
+  width: 49%;
+  height: 575px;
+  background-color: lightskyblue;
+  margin: 10px 0;
+  float: left;
+  padding: 60px;
+  margin: 5px;
+  border: 2px solid blueviolet;
   border-radius: 10px;
   text-decoration: none;
 
@@ -146,6 +161,20 @@ img:hover {
   
 
 }
+.my-portfolios:hover {
+  background-color: crimson;
+  width: 24%;
+  height: 360px;
+  margin: 10px 0;
+  float: left;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid crimson;
+  border-radius: 10px;
+  
+
+}
+
 
 input[type=text], select, textarea {
   width: 100%;
@@ -173,17 +202,35 @@ input[type=submit]:hover {
 
 .contact { 
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: lightgrey;
   padding: 20px;
   border: 1px solid read; 
   margin-top: 10px;
   
 }
 
+.contact:hover { 
+  border-radius: 5px;
+  background-color: lightpink;
+  padding: 20px;
+  border: 1px solid read; 
+  margin-top: 10px;
+  
+}
 #footer-area {
-  background-color: darkseagreen;
+  background-color: lightgreen;
   text-align: center;
-  color: crimson;
+  color: black;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  padding-top: 50px;
+}
+
+#footer-area:hover {
+  background-color: crimson;
+  text-align: center;
+  color: black;
   width: 100%;
   height: 150px;
   border-radius: 10px;
