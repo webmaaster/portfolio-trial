@@ -245,19 +245,21 @@ div a.images {
   height: 50px;
 }
 
-@media (max-width: 500px){
+@media only screen and (min-width: 480px) {
   body {
     background: lightgreen;
   }
-}
-@media (min-width: 601px) and (max-width: 700px){
+} 
+
+
+@media only screen and (min-width: 481px) {
   body {
-    background: lightgray;
+    background-color: darkgrey;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   body {
-    background-color: darkgrey;
+    background-color: gray;
   }
 }
