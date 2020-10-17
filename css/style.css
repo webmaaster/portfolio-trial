@@ -245,7 +245,7 @@ div a.images {
   height: 50px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 500px){
   body {
     background: lightgreen;
   }
